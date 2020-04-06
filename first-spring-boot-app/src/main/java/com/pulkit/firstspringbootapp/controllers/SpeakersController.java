@@ -27,11 +27,6 @@ import java.util.List;
             return speakerRepository.getOne(id);
         }
 
-//        @PostMapping
-////    @ResponseStatus(HttpStatus.CREATED)
-//        public Session create(@RequestBody final Session session){
-//            return sessionRepository.saveAndFlush(session);
-//        }
     }
 
 
